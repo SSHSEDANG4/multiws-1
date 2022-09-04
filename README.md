@@ -1,4 +1,4 @@
-#AUTO SCRIPT DEBIAN 10
+# AUTO SCRIPT DEBIAN 10
 #### NOT WORK ON UBUNTU!!!
 
 ## WHAT NEW?
@@ -22,7 +22,8 @@
 ![VPN](https://github.com/anzclan/multiws/blob/main/photo_2022-08-29_12-20-01.jpg) 
 
 # INSTALL
-<pre><code>apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/anzclan/multiws/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
+# MULTIPORT - WEBSOCKET / SSH / SSL / XRAY
+<pre><code>sudo apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/anzclan/multiws/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
 
 ### REQ [register ip]
 www.t.me/anzclan
